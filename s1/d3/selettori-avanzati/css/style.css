@@ -1,0 +1,42 @@
+blockquote + p{
+    color: red;
+}
+
+span b{
+    color: blue;
+}
+
+button{
+    background-color: red;
+    transition: background-color 1s;
+}
+
+button:hover{
+    background-color: yellow;
+    border: none;
+    
+}
+
+ul li:not(.escluso){
+    text-decoration: overline;
+}
+
+ul li:last-child{
+    background-color: purple;
+}
+
+ul li:nth-of-type(3){
+    background-color: red;
+}
+
+table tr:nth-of-type(odd){background-color: #ccc;
+
+}
+/*pseudoelementi*/
+table tr td:after{
+    content: "@"
+}
+
+table tr td:before{
+    content: "@"
+}

@@ -1,0 +1,36 @@
+
+#main-header a{/*cambia tutti gli a dentro main-header. peso: 101*/
+    text-decoration: none;
+    color: black;
+}
+
+a{/*peso 1*/
+    text-decoration: none;
+    color: blue;
+}
+
+
+/*style: peso 1000
+classi: peso 10
+tag: peso 1
+id: peso 100*/
+
+/*altri modi per selezionare*/
+div.sfondo-blue{
+    background-color: red;
+}
+
+div.sfondo-blue.testo-grasetto{/*funziona solo se entrambi le classi
+    sono applicate contemporeamente allo stesso div*/
+         font-weight: bold;
+
+}
+
+.sfondo-blue, .testo-grassetto{
+    height: 50px;
+}
+
+
+
+
+

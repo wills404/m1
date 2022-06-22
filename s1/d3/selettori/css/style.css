@@ -1,0 +1,37 @@
+ /*i colori possono essere scelti oer nome
+    devono pero essere preimpostati nel linguaggio
+  
+    posso usre i colori esadecimali
+
+    posso usare i colori indicati in rgb , i valori vanno da 0 a 253
+    dove 0 e nero e 253 e bianco 
+   
+    per usare rgb con trasparenza usiamo rgba
+    */
+
+
+
+div{/*selezione attraverso l id*/
+    color: red;
+
+}
+
+#div-blue{/*selezione attraverso l id*/
+    color: blue;
+}
+
+.testo-verde{/*selezione attraverso la classe*/
+    color: green;
+}
+
+span{
+    font-style: italic;
+}
+
+#area-grassetto  span{/*lo spazio in mezzo significa che va a cerca tutti i span dentro un div*/
+   font-weight: bold;/*bold = 600*/
+}
+
+#area-grassetto div span{
+    background-color: blue;
+}

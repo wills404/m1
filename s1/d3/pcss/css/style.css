@@ -1,0 +1,50 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    letter-spacing: 8px;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: white;
+    background-color:  rgb(12, 173, 232);
+    margin-top: 8px;
+}
+
+
+
+blockquote p{
+    text-align: center;
+    color: black;
+    background-color: rgb(138, 145, 148);
+    margin-top: 5px;
+}
+
+
+
+h1{
+    color: #00a0c6; text-align: center;
+    line-height: 25px;
+}
+
+h2{
+    color: black; text-align: center;;
+}
+strong{
+    color: #00a0c6;
+}
+mark{
+    color: white;
+    background-color: #00a0c6;
+}
+
+a{
+    color: red;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: rgb(77, 81, 82);
+    margin-top: 5px;
+}

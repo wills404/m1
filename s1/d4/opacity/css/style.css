@@ -1,0 +1,36 @@
+#blocco-traspaente{
+    opacity: 0.5;
+}
+
+body{
+    font-size: 1.2rem;
+}
+
+button{/*nasconde gli elementi ma non li fa sparire */
+ opacity: 0;
+}
+
+#sezione1{
+    height: 200px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar{
+    background-color: blue;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
+#sezione2{
+    margin-top: 20px;
+    word-wrap: break-word;/*fa si che una parola lunga venga interotta */
+    word-break: break-all;/*spezza tutte le parole*/
+    hyphens: auto;
+}
+
+#sezione3{
+    white-space: nowrap;
+    overflow: auto;
+}

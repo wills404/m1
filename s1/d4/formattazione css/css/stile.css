@@ -1,0 +1,105 @@
+/* IMPOSTAZIONI GENERALI */
+
+html {font-size: 62.5%;}
+body { 
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    
+    background-image: url(../sfondo.png);
+
+}
+/* HEADER */
+header{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(72, 150, 202);
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 4%;
+}
+/* MAIN */
+main{
+    background-color: rgb(247, 241, 241);
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 4%  ;  
+    
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table{
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+   }
+table thead th{
+   
+    background-color: rgb(28, 4, 148);
+    color: white;
+    padding: 10px;
+}
+#rig2{
+    background-color: rgb(194, 184, 184);
+    padding: 10px;
+    margin: 2%;
+
+}
+#rig4{
+    background-color: rgb(194, 184, 184);
+    padding: 10px;
+    margin: 2%;
+}
+#rig6{
+    border-top: 2px solid blue;
+   
+}
+
+
+/* FORM */
+section{
+    text-align: center;
+    color: black;
+    background-color: rgb(159, 156, 156);
+    padding: 30px;
+    border: rgba(234, 230, 230, 0.5);
+    box-sizing: border-box;
+    margin: 2%;
+}
+button{
+    color: white;
+    background-color: blue;
+}
+/* ELEMENTI NELL' ASIDE */
+aside{
+    text-align: center;
+}
+#cat1{
+    background-color: rgb(159, 156, 156);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 2%;
+}
+#cat2{
+    background-color: rgb(159, 156, 156);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 2%;
+}
+#cat3{
+    background-color: rgb(159, 156, 156);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 2%;
+}
+
+
+/* FOOTER */
+footer{ color: white;
+    background-color: rgb(47, 50, 109);
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 4%  ;
+    text-align: center;
+}

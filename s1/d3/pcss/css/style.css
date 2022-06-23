@@ -10,14 +10,16 @@ header {
     background-color:  rgb(12, 173, 232);
     margin-top: 8px;
 }
-
+figure{
+    text-align: center;
+}
 
 
 blockquote p{
     text-align: center;
     color: black;
     background-color: rgb(138, 145, 148);
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 

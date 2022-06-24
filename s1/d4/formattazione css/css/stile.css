@@ -2,48 +2,87 @@
 
 html {font-size: 62.5%;}
 body { 
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 15px;
     background-image: url(../sfondo.png);
-
+  line-height: 30px;
 }
 /* HEADER */
 header{
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(72, 150, 202);
-    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgb(43, 38, 38);
+    font-weight: bold;
     padding: 25px;
     margin: 4%;
+}
+header h2::before{
+   content: "\22c6\0020";
 }
 /* MAIN */
 main{
     background-color: rgb(247, 241, 241);
-    box-sizing: border-box;
+   box-shadow: 0 2px 2px 0  blueviolet;
     padding: 25px;
     margin: 4%  ;  
     
+}
+main div h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+main div h1+p{
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+ul, ol {
+    margin-left: 25px;
+}
+span{
+    color: rgb(134, 65, 65);
+    font-weight: bold;
+}
+code{
+    background-color: #e3e3e3;
+    border: 1px solid #969494;
+    border-radius: 5px;
+}
+iframe{
+    width: 99%;
+    height: 200px;
+    border-bottom: 25px;
+    border-radius: 15px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
 table{
-    text-align: center;
-    padding: 10px;
-    height: 200px;
-    width: 200px;
+   text-align: center;
+    margin-bottom: 25px;
+    height: auto;
+    width: 90%;
+   }
+   caption{
+    font-weight: bold;
    }
 table thead th{
    
     background-color: rgb(28, 4, 148);
     color: white;
-    padding: 10px;
+   padding: 8px;
+}
+table tr{
+    border-bottom: 2px solid rgb(175, 204, 118);
 }
 #rig2{
     background-color: rgb(194, 184, 184);
-    padding: 10px;
-    margin: 2%;
+    padding: 3px;
+   vertical-align: center;
 
 }
 #rig4{
@@ -51,47 +90,63 @@ table thead th{
     padding: 10px;
     margin: 2%;
 }
-#rig6{
-    border-top: 2px solid blue;
-   
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #3f6bca;
 }
 
 
 /* FORM */
 section{
-    text-align: center;
     color: black;
     background-color: rgb(159, 156, 156);
-    padding: 30px;
-    border: rgba(234, 230, 230, 0.5);
+    padding: 20px;
+    border: 2px dashed white;
     box-sizing: border-box;
     margin: 2%;
+}
+section h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+input{
+    padding: 4px;
+    border: 0;
+    border-bottom: 2px dashed grey;
 }
 button{
+    padding: 4px 8px;
+    border: 0;
     color: white;
     background-color: blue;
+    font-weight: bold;
 }
 /* ELEMENTI NELL' ASIDE */
-aside{
+aside h2{
     text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-spacing: 5px;
+
+
 }
-#cat1{
-    background-color: rgb(159, 156, 156);
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 2%;
+aside div{
+    
+    background-color: #969494;
+border: 1px solid #969494;
+margin-bottom: 16px;
+padding: 16px;
 }
-#cat2{
-    background-color: rgb(159, 156, 156);
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 2%;
-}
-#cat3{
-    background-color: rgb(159, 156, 156);
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 2%;
+aside div p:last-child {
+    margin-bottom: 0;
+    font-size: 0.8em;
+    text-align: right;
 }
 
 

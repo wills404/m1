@@ -15,20 +15,21 @@ hr {display: none;} /* rimuove l'elemento */
 .toTop {
     position: fixed;
     bottom: 10px;
-    right: -7px;
+    right:18px;
 }
 .social {
     position: fixed;
     bottom: 20vh;
-    right: -7px;
+    right: 18px;
 }
 .toTop a, .social a {
-    color: #c77ea2;
+    color: rgba(199, 126, 162, 0.5);
     font-size: 4rem;
     display: block;
+
 }
     .social a {
-        color: rgb(45, 101, 185);
+        color: rgba(45, 101, 185, 0.5);
     }
 .toTop .far, .social .far {
     background: white;

@@ -8,28 +8,42 @@
 @media screen and (min-width: 480px){/*breakpoint ed è il responsive*/
     header{
         
-        width: calc(100% / 3 - 80px);
-        height: 100px;
+       
+        height: 100%;
         border-radius: 50%;
         display: inline-block;
         
     }
+
     header div img {
         width: 200px;
-        
-      
+          
     }
-    header nav ul {
-        display: none;
+     section{
+        padding: 15px 10px 15px 10px;
+
     }
+   
+   
 }
 
 @media screen and (min-width: 768px){
     header{
-        width: 768px;
+        width: 100%;
+        height: auto;
+        border-radius: 0%;
     }
-    
-    
+    aside div{
+        width: calc(100% / 3 - 10px);
+        display: inline-block;
+    }
+  section{
+    padding-right: 300px;
+  }
+    table{
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1440px){
@@ -49,10 +63,5 @@
    
 }
 
-@media print{
-    header{
-        display: none;
-    }
-}
 
 

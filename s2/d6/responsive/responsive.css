@@ -1,0 +1,44 @@
+.col{
+    background-color: red;
+    height: 800px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 480px){/*breakpoint ed è il responsive*/
+    .col{
+        background-color: yellow;
+        width: calc(100% / 2 - 10px);
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        width: 768px;
+    }
+    
+    .col{
+        background-color: green;
+        width: calc(100% / 3 - 10px);
+       
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .container{
+        width: 1170px;
+    }
+    
+    .col{
+        background-color: blue;
+        width: calc(100% / 4 - 10px);
+       
+    }
+}
+
+@media print{
+    .test{
+        display: none;
+    }
+}

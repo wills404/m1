@@ -8,6 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.65em;
     line-height: 1.2;
+    padding: 15px;
    
 }
 
@@ -44,6 +45,10 @@ span{
 span a{
     margin: 0;
     text-decoration: none;
+}
+main section div img{
+   width: 350px;
+   height: auto;
 }
 
 
@@ -83,6 +88,9 @@ main #bordi div{
     margin-bottom: 30px;
 }
 #bordi{
+    display: block;
+    text-align: center;
+    width: 351px;
     margin-bottom: 55px;
 }
 
@@ -114,6 +122,11 @@ footer ul  li a {
 footer ul li {
     list-style: none;
 }
+footer ul:last-of-type {
+    border-bottom: 1px solid white;
+  
+}
+
 
 footer p{
     color: white;

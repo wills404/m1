@@ -39,6 +39,12 @@ header nav ul {
     margin: 0;
     
 }
+.imageLeft{
+    float: left;
+    width: 70px;
+    height: 70px;
+
+}
 
 header nav li {
     list-style: none;

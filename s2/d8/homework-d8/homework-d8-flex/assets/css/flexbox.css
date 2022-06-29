@@ -1,0 +1,87 @@
+
+/*flexbox*/
+#flex2{
+    background-color: white;
+}
+
+
+@media screen and (min-width: 500px) {
+    #flex1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        column-gap: 15px;
+    }
+    
+    .c{
+       width: auto;
+       flex-basis: 30%;
+       
+    }
+    
+    
+    #flex2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        column-gap: 10px;
+        background-color: white;
+    }
+    #flex2 .a{
+        background-color: #ccc;
+        flex-basis: 20%;
+        column-gap: 15px;
+    
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    #flex1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        column-gap: 15px;
+    }
+    
+    .c{
+       width: auto;
+       flex-basis: 30%;
+       
+    }
+    #flex2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        column-gap: 10px;
+        background-color: white;
+    }
+    #flex2 .a{
+        background-color: #ccc;
+        flex-basis: 50%;
+        column-gap: 10px;
+    
+    }
+
+    #fianco{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        column-gap: 5px;
+    }
+    .clearfix{
+        width: auto;
+       flex-basis: 40%;
+    }
+
+}

@@ -1,0 +1,40 @@
+#transform-area{
+    perspective: 200px;
+    background-color: black;
+    height: 100vh;
+
+}
+
+.quadrato{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+    color: white;
+    font-size: 3rem;
+
+}
+
+#n1{
+    transform: rotate(30deg);
+}
+#n2{
+    transform: rotateY(100deg);
+}
+#n3{
+    transform: rotateX(45deg);
+}
+#n4{
+    transform: scale(0.5) rotate(30deg);
+}
+#n5{
+    transform: skew(10deg);
+}
+#n6{
+    transform: transform 0.2s, background-color 2s;
+    transition-delay: 1s, 0s;
+}
+#n6:hover{
+    transform: skew(10deg) scale(1.5) rotate(30deg);
+    background-color: yellow;
+}

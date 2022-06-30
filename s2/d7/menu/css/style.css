@@ -44,3 +44,34 @@
     display: block;
 }
 
+@media screen and (max-width:768px){
+   #main-header{
+height: auto;
+   }
+   #menu{
+    transition: all 0.3s;
+    height: 0;
+    overflow: hidden;
+   }
+   label[type="checkbox"]{
+    cursor: pointer;/*appare la manina*/
+   }
+   input[type="ckeckbox"]{
+    display: none;
+   }
+
+   input[type="ckeckbox"]:checked + menu{
+    height: 150px;
+   }
+
+   #menu > li{
+   height: 50px;
+}
+   
+    #menu li{
+        display: block;
+    }
+    #menu li > ul{
+        display: none;
+    }
+}

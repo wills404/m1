@@ -1,0 +1,42 @@
+article{
+    width: 400px;
+    height: 300px;
+    background-color: #ccc;
+   border: 1px dashed black;
+   margin-top: 10px;
+   margin-left: 10px;
+
+   position: relative;
+   top: 30px;
+   left: 20px;
+}
+
+article.principale::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.principale{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(52, 50, 47);
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    position: absolute;
+    top: -30px;
+    left: 3rem;
+}
+
+.princ{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(150, 105, 37);
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    position: relative;
+    top: 85px;
+    left: 2rem;
+}

@@ -1,0 +1,424 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.8;
+    color: #000;
+   
+}
+h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+    
+}
+/* HEADER */
+
+header{font-size: 1.4rem;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   padding: 10px; 
+    
+    top: 1px;
+    z-index: 1;
+}
+
+.reg{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+
+}
+span.reg1 {
+    margin-left: 15px;
+    position: relative;
+    right: 1%;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    width: 150px;
+    height: 40px;
+    background-color: #6cc1e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(195deg, rgba(59, 56, 123, 1) 15%, rgba(122, 178, 219, 1) 100%);
+
+}
+span.reg1 a{
+    color: white ;
+}
+
+
+
+    header nav ul {
+        margin: 0;
+    }
+    header nav li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+        header nav li:last-child {
+            margin-right: 0;
+        }
+    header nav li a {
+        color: rgb(25, 16, 16);
+        text-decoration: none;
+    }
+    header nav li a:hover {
+        color: red;
+    }
+    
+
+/*menu puntato: questa parte non sapevo come farla cosi l ho stracopiata da internet scusa*/
+header .icon{
+    
+   
+    position: relative;
+   
+    left: 10%;
+    cursor: pointer;
+}
+
+header .icon .nav-icon{
+    background-color: #e42424;
+    display: flex;
+    width: 5px;
+    height: 3px;
+    position: absolute;
+    left: 70%;
+    transition: background-color .2s ease-in;
+}
+
+header .icon .nav-icon:before,
+header .icon .nav-icon:after{
+    background-color: red;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: all .2s ease-out;
+    position: absolute;
+    
+}
+header .icon .nav-icon:before{
+    top: 8px;
+}
+header .icon .nav-icon:after{
+    top: -8px;
+}
+
+header .btn{
+    display: none;
+}
+
+header .btn:checked ~ ul{
+    max-height: 200px;
+}
+
+header .btn:checked ~ .icon .nav-icon{
+    background-color: transparent;
+}
+header .btn:checked ~ .icon .nav-icon::before{
+    transform: rotate(-30deg);
+    top: 0;
+}
+header .btn:checked ~ .icon .nav-icon:after{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+/*main*/
+
+.div5{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.bottone{
+    width: 100px;
+    height: 30px;
+    background-color: #6cc1e2;
+    display: flex;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    box-shadow:   3px 3px 12px #000;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+    background: linear-gradient(195deg, rgba(59, 56, 123, 1) 15%, rgba(122, 178, 219, 1) 100%);
+    
+}
+.bottone a{
+    color: white;
+}
+
+.div1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+.div1 p{
+    margin-bottom: 30px;
+}
+
+.secondo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 1.2rem;
+    background-color: #1b1444;
+    height: 400px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.span2{
+    display: flex;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #6cc1e2;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background: linear-gradient(195deg, rgba(59, 56, 123, 1) 15%, rgba(122, 178, 219, 1) 100%);
+    
+}
+.span2 a{
+    color: white;
+}
+.terzo{
+    
+    text-align: center;
+    margin-bottom: 40px;
+}
+.div2{
+    margin-bottom: 15px;
+}
+i{
+    font-size: 2rem;
+    color: orange; 
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(238, 238, 238);
+    
+}
+
+ .div4, .div3{
+    padding: 25px;
+    width: 30%;
+}
+
+.div4 i{
+    font-size: 2rem;
+    color: orange;
+   
+}
+.div6{
+    margin-left: -10px;
+   padding: 25px;
+}
+.pie{
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="email"] {
+    border: 1px solid #d3d3d3;
+    height: 40px;
+    width: 65%;
+}
+
+button[type="submit"]{
+    color: white;
+    border: 1px solid #d3d3d3;
+   
+    background-color: #392f7a;
+    background: linear-gradient(195deg, rgba(59, 56, 123, 1) 15%, rgba(122, 178, 219, 1) 100%);
+    height: 40px;
+    width: 67%;
+    margin-bottom: 15px;
+}
+button[type="submit"] a{
+  color: white;
+}
+
+h4{
+    font-size: 1.6rem;
+}
+
+fieldset{
+    margin-top: 20px;
+    
+    
+}
+
+/*animazione*/
+.bottone{
+    animation-name: animazione4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes animazione4 {
+    0%{transform:  scale(1);
+        box-shadow:   3px 3px 10px #000;
+    }
+    50%{
+        box-shadow: 2px 3px 3px 6px #000;
+    }
+    100%{transform:  scale(1.3);
+        box-shadow:   3px 3px 10px #000;
+    }
+    
+}
+
+.span2{
+    animation-name: animazione2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes animazione2 {
+    0%{transform:  scale(1);
+        box-shadow:   3px 3px 10px white;
+    }
+    50%{
+        box-shadow: 2px 3px 3px 6px green;
+    }
+    100%{
+        box-shadow:   3px 3px 10px #000;
+    }
+    
+}
+
+/*contatti*/
+.div7{
+  line-height: 1.2rem;
+
+}
+
+
+.cont{
+    text-align: center;
+}
+
+input[type="text"], input[type="mail"], input[type="text-area"] {
+    border: 1px solid #d3d3d3;
+    
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+input[type="text-area"]{
+    height: 80px;
+    
+    }
+
+.div1 ul li {
+  list-style: none;
+    }
+
+    button[type="submit1"]{
+        border: 1px solid #d3d3d3;
+        background-color: #392f7a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(195deg, rgba(59, 56, 123, 1) 15%, rgba(122, 178, 219, 1) 100%);
+        height: 40px;
+        width: 40%;
+        margin-bottom: 15px;
+        position: relative;
+        left: 30%;
+    }
+    button[type="submit1"] a{
+        color: white;
+    }
+    #sede ul li:nth-child(2) {
+      margin-bottom: 25px;
+          }
+
+#coder{
+    padding: 35px;
+}
+
+#coder img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#cod{
+    text-align: center;
+}
+
+/*chi siamo*/
+#tablebg{
+    line-height: 2.8rem;
+   width: 80%;
+   text-align: center;
+   position: relative;
+   left: 10%;
+   
+}
+#tablebg caption{
+    font-size: 1.6rem;
+}
+.thb{
+    background-color: #66819f;
+    font-weight: bold;
+    
+}
+.tblbg{
+    background-color: #d2dce7;
+}
+
+#tablemb th{
+font-weight: bold;
+}
+#tablemb tr:nth-last-child(1), #tablemb tr:nth-last-child(2), #tablemb tr:nth-last-child(3), #tablemb tr:nth-last-child(7), #tablemb tr:nth-last-child(8), #tablemb tr:nth-last-child(9){
+    background-color: #d2dce7;
+}

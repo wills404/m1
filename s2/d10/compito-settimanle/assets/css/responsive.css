@@ -1,0 +1,167 @@
+@media screen and (max-width:700px){
+    #tablebg {
+        display: none;
+    
+    }
+
+    .terzo img{
+        max-width: 60%;
+    }
+    .reg{
+        display: none;
+    }
+    main, footer{
+        padding: 20px;
+    }
+    .div3, .div4{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (min-width: 700px){
+  
+    #tablemb{
+        display: none;
+    }
+
+    #div-tre{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        
+    }
+
+    #div-tre.div1{
+        padding: 1rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .terzo{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #main-contatti{
+       
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+
+    .terzo .div2, #sede{
+       box-sizing: border-box; 
+    }
+
+    .terzo .div2{
+        padding: 2rem;
+    }
+
+    #img-terzo {
+        width: 350px;  
+    }
+
+    #foot, #divdb{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #foot {
+        margin-top: 0px;
+        padding: 1rem;
+    }
+
+    #divdb, .pit{
+        padding: 1rem;
+    }
+
+    #sede{
+        margin-left: 1rem;
+    }
+    header .icon {
+        display: none;
+    }
+
+    .pit img{
+        min-width: 300px;
+        max-width:450px;
+    }
+    footer{
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+        flex-basis: calc(100% / 3);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+ #main-contatti{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+   flex: 0 1 auto;
+   flex-wrap: nowrap;
+ }
+    #img-terzo {
+        width: 500px;
+
+    }
+    .terzo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cod,footer {
+        padding: 4rem 10% 5% 10%;
+    }
+
+    #messaggio input {
+        width: 80%;
+    }
+
+    #messaggio:nth-child(3){
+        height: 6rem;
+    }
+
+    /* nav bar su desktop */
+
+    header ul {
+        display: flex;
+        justify-content: right;
+    }
+
+    header li {
+        float: left;
+    }
+
+    header li a {
+        padding: 20px 30px;
+    }
+
+    header ul {
+        /* display: flex;
+            justify-content: center; */
+        clear: none;
+        /* float: right; */
+        max-height: 100%;
+
+    }
+
+    header .icon {
+        display: none;
+    }
+
+    #logo {
+        margin: auto 0;
+    }
+    
+}
